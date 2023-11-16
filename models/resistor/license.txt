@@ -1,0 +1,11 @@
+Model Information:
+* title:	Lowpoly resistor
+* source:	https://sketchfab.com/3d-models/lowpoly-resistor-9fb4a7c5018049adbfd337fe149611d2
+* author:	Jiří Kuba (https://sketchfab.com/kuba.jirka)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Lowpoly resistor" (https://sketchfab.com/3d-models/lowpoly-resistor-9fb4a7c5018049adbfd337fe149611d2) by Jiří Kuba (https://sketchfab.com/kuba.jirka) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
