@@ -21,7 +21,7 @@ let object;
 let controls;
 
 //Set which object to render
-let objToRender = 'resistor';
+let objToRender = 'led';
 
 //Instantiate a loader for the .gltf file
 const loader = new GLTFLoader();
@@ -52,7 +52,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 document.getElementById("container3D").appendChild(renderer.domElement);
 
 //Set how far the camera will be from the 3D model
-camera.position.z = objToRender === "resistor" ? 5 : 500;
+camera.position.z = objToRender === "led" ? 10 : 500;
 
 //Add lights to the scene, so we can actually see the 3D model
 const topLight = new THREE.DirectionalLight(0xffffff, 1); // (color, intensity)
@@ -64,7 +64,7 @@ const ambientLight = new THREE.AmbientLight(0x333333, objToRender === "dino" ? 5
 scene.add(ambientLight);
 
 //This adds controls to the camera, so we can rotate / zoom it with the mouse
-if (objToRender === "resistor") {
+if (objToRender === "led") {
   controls = new OrbitControls(camera, renderer.domElement);
 }
 
